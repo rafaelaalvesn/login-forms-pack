@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplo de página com Bootstrap</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+    <style>
+      
+        body {
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(187,250,184,1) 0%, rgba(124,203,132,1) 100%);
+        }
+
+    
+        .card {
+            width: 400px;
+            margin: 50px auto;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-body">
+
+            <h3 class="card-title text-center">Sign in</h3>
+            <form>
+                <div class="mb-3">
+                    <label for="login" class="form-label">Login</label>
+                    <input type="text" class="form-control" id="login" placeholder="Enter your login">
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                </div>
+                <div class="form-check mb-3">
+                
+                    <input type="checkbox" class="form-check-input" id="remember">
+                    <label class="form-check-label" for="remember">Remember Password</label>
+                </div>
+   
+                <div class="text-center">
+                    <button type="submit" class="btn btn-success">Sign in</button>
+                </div>
+            </form>
+
+            <p class="text-center mt-3"><a href="#" class="text-muted">Forgot your password?</a></p>
+
+            <p class="text-center"><a href="#" class="text-primary">Don't have a account? Sing up here</a></p>
+        </div>
+    </div>
+</body>
+</html>

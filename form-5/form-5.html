@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechCorp Login</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+  <style>
+    body {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    }
+
+    .form-control, .btn {
+      border-radius: 25px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Animation */
+    .card {
+      animation: fade-in 1s ease-in-out;
+      background-color: transparent!important;
+    }
+
+    @keyframes fade-in {
+      from {
+        opacity: 0;
+        transform: translateY(-50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .btn-login{
+        background: yellow;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+      <div class="card-body">
+        <h1 class="card-title text-center text-white">Welcome to TechCorp</h1>
+        <p class="card-text text-center  text-white mb-5">The most innovative technology company in the world.</p>
+        <form>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="username" placeholder="Enter your username">
+          </div>
+          <div class="mb-3">
+            <input type="password" class="form-control" id="password" placeholder="Enter your password">
+          </div>
+          <div class="d-grid gap-2">
+            <button type="submit" class="btn btn-login w-100">Log in</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap 5 CDN -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

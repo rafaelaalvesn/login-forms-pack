@@ -9,7 +9,7 @@
 - Bootstrap
 
 ## Screenshots
-<img src="[Image_URL](https://github.com/rafaelaalvesn/login-forms-pack/blob/main/form-1/img/form-1.png?raw=true)" alt="Alternative Text">
+<img src="https://github.com/rafaelaalvesn/login-forms-pack/blob/main/form-1/img/form-1.png?raw=true" alt="Form 1">
 
 
 ## How to View

@@ -26,3 +26,7 @@
 1. Clone this repository.
 2. Open the HTML files in a web browser or host them online.
 
+
+## Published
+https://rafaelaalvesn.github.io/login-forms-pack/
+

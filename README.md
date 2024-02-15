@@ -28,5 +28,5 @@
 
 
 ## Published
-(https://rafaelaalvesn.github.io/login-forms-pack/)https://rafaelaalvesn.github.io/login-forms-pack/
+https://rafaelaalvesn.github.io/login-forms-pack/
 

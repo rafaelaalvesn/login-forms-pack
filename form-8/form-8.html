@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechCorp Login</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
+    />
+    <script src="https://use.fontawesome.com/f59bcd8580.js"></script>
+    <style>
+      body {
+        background-image: url(/form-8/img/background.jpg);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(12.5px);
+        -webkit-backdrop-filter: blur(12.5px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+      }
+
+      .form-control,
+      .btn {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+
+      .card {
+        animation: fade-in 1s ease-in-out;
+        background-image: url(/form-8/img/background.jpg);
+ 
+      }
+
+ 
+      .card-body {
+        z-index: 1;
+      }
+
+      @keyframes fade-in {
+        from {
+          opacity: 0;
+          transform: translateY(-50px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      .btn-login {
+        background: yellow;
+      }
+
+      .sideline {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #ccc;
+      }
+
+      .sideline:before,
+      .sideline:after {
+        content: "";
+        border-top: 1px solid #ebebeb;
+        margin: 0 20px 0 0;
+        flex: 1 0 20px;
+      }
+
+      .sideline:after {
+        margin: 0 0 0 20px;
+      }
+
+      .btn {
+        border-radius: 25px;
+        background: linear-gradient(to right, #00b4db, #0083b0);
+        color: white;
+      }
+
+      .btn:hover {
+        background: linear-gradient(to right, #0083b0, #00b4db);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+        <div class="card-body mt-5 mb-5">
+          <h1 class="card-title text-center text-white">Welcome to TechCorp</h1>
+          <p class="card-text text-center text-white mb-5">
+            The most innovative technology company in the world.
+          </p>
+          <form>
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="username"
+                placeholder="Enter your username"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="password"
+                class="form-control"
+                id="password"
+                placeholder="Enter your password"
+              />
+            </div>
+
+            <div class="d-grid gap-2">
+              <button type="submit" class="btn btn-login w-100">Log in</button>
+            </div>
+            <div class="sideline mt-3">OR</div>
+            <div class="row mt-2">
+              <div class="col-6">
+                <button
+                  type="submit"
+                  class="btn btn-light w-100 border border-primary"
+                >
+                  <i class="fa fa-facebook" aria-hidden="true"></i> Login
+                  Facebook
+                </button>
+              </div>
+              <div class="col-6">
+                <button
+                  type="submit"
+                  class="btn btn-light w-100 border border-danger"
+                >
+                  <i class="fa fa-google" aria-hidden="true"></i> Login Google
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap 5 CDN -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

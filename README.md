@@ -9,8 +9,10 @@
 - Bootstrap
 
 ## Screenshots
-<img src="https://github.com/rafaelaalvesn/login-forms-pack/blob/main/form-1/img/form-1.png?raw=true" alt="Form 1">
-<img src="https://github.com/rafaelaalvesn/login-forms-pack/blob/main/form-2/img/form-2.png?raw=true" alt="Form 2">
+<div style="display: flex;">
+<img src="https://github.com/rafaelaalvesn/login-forms-pack/blob/main/form-1/img/form-1.png?raw=true" alt="Form 1" style="width:50%">
+<img src="https://github.com/rafaelaalvesn/login-forms-pack/blob/main/form-2/img/form-2.png?raw=true" alt="Form 2" style="width:50%">
+</div>
 <img src="https://github.com/rafaelaalvesn/login-forms-pack/blob/main/form-3/img/form-3.png?raw=true" alt="Form 3">
 <img src="https://github.com/rafaelaalvesn/login-forms-pack/blob/main/form-4/img/form-4.png?raw=true" alt="Form 4">
 <img src="https://github.com/rafaelaalvesn/login-forms-pack/blob/main/form-5/img/form-5.png?raw=true" alt="Form 5">

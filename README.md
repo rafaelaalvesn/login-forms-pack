@@ -10,8 +10,9 @@
 
 ## Screenshots
 
-![alt-text-1]([(https://github.com/rafaelaalvesn/login-forms-pack/blob/main/form-1/img/form-1.png) "title-1") ![alt-text-2]((https://github.com/rafaelaalvesn/login-forms-pack/blob/main/form-2/img/form-2.png) "title-2")
 
+<img src="https://github.com/rafaelaalvesn/login-forms-pack/blob/main/form-1/img/form-3.png?raw=true" style="width:50%" alt="Form 1">
+<img src="https://github.com/rafaelaalvesn/login-forms-pack/blob/main/form-2/img/form-3.png?raw=true  style="width:50%"" alt="Form 2">
 <img src="https://github.com/rafaelaalvesn/login-forms-pack/blob/main/form-3/img/form-3.png?raw=true" alt="Form 3">
 <img src="https://github.com/rafaelaalvesn/login-forms-pack/blob/main/form-4/img/form-4.png?raw=true" alt="Form 4">
 <img src="https://github.com/rafaelaalvesn/login-forms-pack/blob/main/form-5/img/form-5.png?raw=true" alt="Form 5">
